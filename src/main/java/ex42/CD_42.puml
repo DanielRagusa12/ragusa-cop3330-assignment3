@@ -1,0 +1,15 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Ex42_Main
+{
+  {field}+String [][] arr2
+  +File input_file
+  +String [][] arr_2_parsed
+  +String line
+{method} +csv_parse()
+{method} +main()
+
+}
+
+@enduml

@@ -1,0 +1,17 @@
+@startuml
+'https://plantuml.com/class-diagram
+class Ex41_Main
+{
+  {field}+ArrayList<String> name_list
+  +File input_file
+  +File output_file
+  +ArrayList<String> sorted_list
+  +String name
+{method} +sort_names()
+{method} +main()
+
+}
+
+
+
+@enduml

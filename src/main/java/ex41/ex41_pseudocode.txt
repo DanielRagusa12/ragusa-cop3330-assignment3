@@ -1,0 +1,4 @@
+For this exercise I will be starting by creating a new file for input.txt, and creating a buffered reader, and writer for this file.
+After this I will run a loop that fills up an ArrayList with the names from the input file.
+Then I will call a function sort_names that takes in the list of names as parameter, sorts them, and then returns a sorted list with the names in alphabetical order.
+Once main has the sorted names it will use them to write to an output file accordingly.

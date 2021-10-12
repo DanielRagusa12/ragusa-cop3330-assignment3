@@ -1,0 +1,5 @@
+For exercise 42, I will start by declaring a 2d array to hold the values for each person, which is last name,first name, and salary.
+I will then pass this array to my csv_parse function which will take this array, and the input file as parameters.
+The csv_parse function will read the input.txt file line by line and use .split to separate the values by comma for each person.
+The csv_parse function will return a 2d array that is properly parsed with each index holding 3 values for last name, first name, and salary.
+The parsed array will be returned to main, and used to print appropriate output.

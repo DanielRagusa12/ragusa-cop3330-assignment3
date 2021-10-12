@@ -1,0 +1,20 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Ex45_Main
+{
+  {field}+ArrayList<String> line_list
+  +File input_file
+  +BufferedReader br
+  +String line
+  +ArrayList<String> new_list
+  +File output_file
+  +BufferedWriter bw
+
+{method} +word_replace()
+{method} +main()
+
+}
+
+
+@enduml

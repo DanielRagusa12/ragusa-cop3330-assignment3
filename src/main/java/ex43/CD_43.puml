@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/class-diagram
+class Ex43_Main
+{
+  {field}+Scanner input
+  +String author
+  +String site_name
+  +String js
+  +String css
+{method} +create_website()
+{method} +create_html()
+{method} +create_js()
+{method} +create_css()
+{method} +main()
+
+}
+
+
+@enduml

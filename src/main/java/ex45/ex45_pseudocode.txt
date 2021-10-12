@@ -1,0 +1,5 @@
+For exercise 45 I will start by using a buffered reader to read each line of the input file into an array list.
+I will then pass this array list to a word_replace function that will increment through the arraylist.
+The loop inside this function will be checking for the word "utilize" and when found replaces it with "use".
+The function will then return a new array list with "use" substituted appropriately.
+Once main receives the sorted array it will use it to write to the output txt file.

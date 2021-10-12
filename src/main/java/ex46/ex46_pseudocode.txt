@@ -1,0 +1,21 @@
+For exercise 46 I will start by storing each line from the input file into an arraylist.
+After this I run a loop to combine each line of the input file into one continuous string.
+I then store this string in a String array that uses .split to split the string by each space.
+This results in an array that has each word from the input file at a different index.
+I then create a new array list that will store each unique word from the string.
+To determine if a word is unique I start by adding "badger" as the first unique word.
+I then use a nested loop to iterate through each word, and compare the current word, with the entire list of unique words eg. key_words.
+If the current word is already in key_words then the loop uses a flag variable so that no duplicate words are added.
+When this loop is complete it has filled the key_words array list with each unique word from the file, "badger","mushroom", and "snake".
+I then create a new array list of integer that will store the corresponding frequencies of each word in identical indexes.
+I pass the key_word, and the .split arrays to a function called find_frequency.
+This function iterates through each keyword from the array in a nested loop, and compares it to each individual word from the original input string.
+If it finds a match than it adds 1 to a count variable that will hold the total number of occurrences for a key word.
+At the end of each key word iteration an integer value representing the number of occurrences is stored in the key_word_count array.
+The result of this is two array lists, one called key_words that holds each unique word, and the other key_word_count which stores the frequency of each word.
+These arrays are then passed to a print_histogram function that prints the name of each unique word, and a number of stars representing the words frequency.
+
+
+
+
+

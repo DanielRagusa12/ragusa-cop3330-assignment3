@@ -1,0 +1,6 @@
+For exercise 43 I will start by prompting for user input for site name,author,and a yes no question for js, and css folders.
+After this input is captured into string variables I will send this information to several create functions that create the appropriate files, and folders from what the user has input.
+Each create function will return a boolean value, true meaning the file/folder is successfully created, and false meaning there was an error creating the file/folder.
+If the create functions returns true, then the program will print the appropriate created message with the directory of the file/folder.
+After this I will use a buffered writer to write to the html file using site name, and author.
+
