@@ -1,6 +1,6 @@
 For exercise 44 I will start by declaring an array list for name, price, and quantity.
 I will then create a new file for the input.json file.
-I will then create a Json parser reader for the json file, and create a jsonArray that will locate the "products" array int the json file.
+I will then create a Json parser reader for the json file, and create a jsonArray that will locate the "products" array in the json file.
 After this I will create a loop to read through the json array and store name,price, and quantity in the above array lists.
 I will then prompt for user input inside a loop, and pass the name of the product being searched for to my search_product function.
 This function will loop through the name array list, and if it finds a match it will print out the name, price, and quantity of that item.

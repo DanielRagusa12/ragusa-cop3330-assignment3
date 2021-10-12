@@ -66,7 +66,9 @@ public class Ex46_Main
     }
     public static ArrayList<Integer> find_frequency(ArrayList<String> key_words,String [] arr_split)
     {
+        //initializing count variable for loop
         int count=0;
+        //new array list which will hold the integer values for frequency
         ArrayList<Integer> key_word_count=new ArrayList<Integer>();
         for(int i=0;i< key_words.size();i++)
         {
